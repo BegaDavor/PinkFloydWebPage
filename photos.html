@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pink Floyd</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
+    <script src="script/main.js"></script>
+</head>
+<body>
+
+    <div class="header">
+
+        <h1 class="page_title animate-pop-in">PINK FLOYD</h1>
+        <h2 class="welcome animate-pop-in">Photos</h2>
+        
+           
+    </div>
+
+    <div class="navigation animate-pop-in">
+        <nav class="page-navigation">
+
+                <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a  href="history.html">HISTORY</a></li>
+                        <li><a  href="band-members.html">BAND MEMBERS</a></li>
+                        <li><a  href="discography.html">DISCOGRAPHY</a></li>
+                        <div class="dropdown">
+                        <li><a id="this-page" class="dropdown-button">MEDIA</a></li>
+                        <div class="dropdown-content">
+                                <a href="videos.html">Videos</a>
+                                <a href="photos.html">Photos</a>
+                        </div>
+                        </div>
+                </ul>
+
+        </nav>
+    </div>
+
+    <div class="content-home animate-pop-in">
+
+        <!-- Container for the image gallery -->
+<div class="container">
+
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+            <img src="images/syd.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+            <img src="images/gilmour.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+            <img src="images/mason.jpeg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+            <img src="images/waters.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+            <img src="images/wright.jpeg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+            <img src="images/PinkFloyd.jpg" style="width:100%">
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      
+        <!-- Thumbnail images -->
+        <div class="row-pictures">
+          <div class="column-pictures">
+            <img class="demo cursor" src="images/syd.jpg" style="width:100%" onclick="currentSlide(1)" alt="Syd Barrett">
+          </div>
+          <div class="column-pictures"> 
+            <img class="demo cursor" src="images/gilmour.jpg" style="width:100%" onclick="currentSlide(2)" alt="David Gilmour">
+          </div>
+          <div class="column-pictures">
+            <img class="demo cursor" src="images/mason.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Nick Mason">
+          </div>
+          <div class="column-pictures">
+            <img class="demo cursor" src="images/waters.jpg" style="width:100%" onclick="currentSlide(4)" alt="Roger Waters">
+          </div>
+          <div class="column-pictures">
+            <img class="demo cursor" src="images/wright.jpeg" style="width:100%" onclick="currentSlide(5)" alt="Richard Wright">
+          </div> 
+          <div class="column-pictures">
+            <img class="demo cursor" src="images/PinkFloyd.jpg" style="width:100%" onclick="currentSlide(6)" alt="Pink Floyd">
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </body>
+    </html>
